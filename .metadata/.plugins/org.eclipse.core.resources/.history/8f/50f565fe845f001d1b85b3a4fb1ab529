@@ -1,0 +1,20 @@
+package collectionsDemo;
+
+import java.util.ArrayList;
+
+public class ArrayListDemo1 {
+	public static void main(String args[] ) {
+		/*
+		  Declare ArrayListTypes ArrayList al=new ArrayList() == This will store the
+		  HETROGENINOUS data ArrayList<String> al1=new ArrayList<String> |
+		  ArrayList<Integer> al2=new ArrayList<Integer> |This two will create
+		  Homogeneous data  */
+		ArrayList al = new ArrayList();
+		al.add(100);
+		al.add("Welcome");
+		al.add(18.5);
+		al.add('a');
+		System.out.println(al); 
+		System.out.println(al.size());
+	}
+}

@@ -1,0 +1,25 @@
+package linkedlistDemo;
+
+import java.util.LinkedList;
+
+public class LinkedListDemo2 {
+	public static void main(String args[]) {
+		LinkedList l=new LinkedList();
+		l.add("Dog");
+		l.add("Cow");
+		l.add("Car");
+		l.add("Bike");
+		l.add("Watch");
+		l.add("Laptop");
+		
+		System.out.println("before adding the elements = "+l);
+		
+		System.out.println();
+		System.out.println();
+		
+		l.addFirst("man");
+		
+		
+		
+	}
+}

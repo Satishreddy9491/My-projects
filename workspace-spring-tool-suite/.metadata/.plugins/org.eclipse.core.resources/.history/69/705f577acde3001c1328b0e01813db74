@@ -1,0 +1,14 @@
+package com.example.Mypackage;
+
+import org.springframework.stereotype.Component;
+
+@Component
+
+public class Car implements Vechile{
+
+	public void Drive() {
+			
+			System.out.println("Driving the car");
+		}
+	}
+

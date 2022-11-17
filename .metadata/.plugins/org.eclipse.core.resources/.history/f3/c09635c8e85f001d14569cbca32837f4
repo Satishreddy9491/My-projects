@@ -1,0 +1,14 @@
+package linkedlistDemo;
+
+import java.util.LinkedList;
+
+public class LinkedListDemo1 {
+	public static void main(String args[]) {
+		LinkedList al = new LinkedList();
+		al.add(100);
+		al.add("Welcome");
+		al.add(18.5);
+		al.add('a');
+		System.out.println(al);
+	}
+}

@@ -1,0 +1,8 @@
+package com.example.Mypackage;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public interface Vechile {
+	void Drive() ;
+}

@@ -1,0 +1,9 @@
+package com.example.Mypackage;
+
+public class App {
+	public static void main(String[] args) {
+		
+		Vechile c=new Car();
+		c.Drive();
+	}
+}

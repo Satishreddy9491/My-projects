@@ -1,0 +1,21 @@
+package linkedlistDemo;
+
+import java.util.LinkedList;
+
+public class LinkedListDemo1 {
+	public static void main(String args[]) {
+		
+		/*
+		  Declare LinkedListTypes
+		   LinkedList al=new LinkedList() == This will store the  HETROGENINOUS data 
+		 LinkedList<String> al1=new LinkedList<String>    |
+		  LinkedList<Integer> al2=new LinkedList<Integer> |This two will create Homogeneous data  
+		  */
+		LinkedList al = new LinkedList();
+		al.add(100);
+		al.add("Welcome");
+		al.add(18.5);
+		al.add('a');
+		System.out.println(al);
+	}
+}

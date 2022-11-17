@@ -1,0 +1,26 @@
+package queueDemo;
+
+import java.util.PriorityQueue;
+
+public class QueueDemo1 {
+	public static void main(String args[]) {
+		PriorityQueue p=new PriorityQueue();
+//		p.add("a");
+//		p.add("b");
+//		p.add("c");
+//		p.offer("c");
+//		System.out.println(p);
+		
+		//get header element () peak()
+		
+//		System.out.println(p.element()); --> Returns header elements, if empty returns NoSuchElements
+//		System.out.println(p.peek());    --> Returns header elements ,if empty returns Null
+		
+		//  Return and Remove elements remove()  poll()
+		
+//		System.out.println(p.remove());  --> queue is empty remove method is returns NoSuchElements
+		System.out.println(p.poll());    //--> queue is empty poll method is returns Null
+		
+		
+	}
+}

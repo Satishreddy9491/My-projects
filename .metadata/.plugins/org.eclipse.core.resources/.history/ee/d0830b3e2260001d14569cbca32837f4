@@ -1,0 +1,13 @@
+package queueDemo;
+
+import java.util.PriorityQueue;
+
+public class QueueDemo1 {
+	public static void main(String args[]) {
+		PriorityQueue p=new PriorityQueue();
+		p.add("a");
+		p.add("b");
+		p.add("c");
+		System.out.println(p);
+	}
+}

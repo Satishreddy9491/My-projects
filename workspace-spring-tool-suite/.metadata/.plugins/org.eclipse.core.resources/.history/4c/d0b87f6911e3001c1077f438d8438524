@@ -1,0 +1,28 @@
+package com.example.Mypackage;
+import org.apache.catalina.core.ApplicationContext;
+import org.apache.naming.factory.BeanFactory;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+
+
+
+
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MyProjectApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MyProjectApplication.class, args);
+		
+		ClassPathXmlApplicationContext Satish=new ClassPathXmlApplicationContext("Spring.xml");
+		
+		Vechile obj=(Vechile)Satish.getBean("Vechile");
+//		System.out.println("");
+		obj.Drive();
+		}
+	}
+
+

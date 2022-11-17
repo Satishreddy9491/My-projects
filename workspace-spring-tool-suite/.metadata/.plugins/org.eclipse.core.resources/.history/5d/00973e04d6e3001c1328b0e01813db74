@@ -1,0 +1,27 @@
+package com.example.Mypackage;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.apache.catalina.core.ApplicationContext;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+
+
+@SpringBootApplication
+public class MyProjectApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MyProjectApplication.class, args);
+		
+		ClassPathXmlApplicationContext context=new ClassPathXmlApplicationContext("Spring.xml");
+		Vechile obj=(Vechile)context.getBean("bike");
+		System.out.println("");
+		obj.Drive();
+		
+		Tyre T=(Tyre)context.getBean("Tyre");
+		System.out.println("");
+		System.out.println(T);
+		
+		}
+	}
+
+

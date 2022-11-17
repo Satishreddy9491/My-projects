@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans>
+
+	<bean id="Vechile" class="com.example.Mypackage.Car"></bean>
+
+</beans>

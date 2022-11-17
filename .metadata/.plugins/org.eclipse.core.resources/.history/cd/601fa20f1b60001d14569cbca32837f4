@@ -1,0 +1,23 @@
+package hashsetDemo;
+
+import java.util.HashSet;
+
+public class HashSetDemo1 {
+	public static void main(String args[]) {
+		// HashSet h=new HashSet(); --> default capacity is 16 load factor is 0.75
+		//HashSet hs=new HashSet(100) --> initial capacity is 100
+		//HashSet <Integer> hs1=new HashSet<integer>();
+		
+		HashSet h=new HashSet();
+		h.add("Satish");
+		h.add(122);
+		h.add("ui");
+		h.add(788.4);
+		System.out.println(h);
+		
+		System.out.println("Removing  the value");
+		
+		System.out.println(h.remove(122));
+		System.out.println(h);
+	}
+}

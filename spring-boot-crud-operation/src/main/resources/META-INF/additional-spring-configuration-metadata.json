@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "spring.datasource.books_data",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.books_data'"
+  },
+  {
+    "name": "spring.datasource.books",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.books'"
+  }
+]}

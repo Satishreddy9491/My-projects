@@ -1,0 +1,9 @@
+package com.example.Mypackage;
+
+public class Car {
+		public void Drive() {
+			
+			System.out.println("Driving the car");
+		}
+	}
+
